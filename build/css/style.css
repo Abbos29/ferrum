@@ -560,12 +560,6 @@ input[type=button]:focus {
   transition: all 0.4s;
 }
 
-.services__item-img:hover {
-  -webkit-transform: scale(1.01);
-      -ms-transform: scale(1.01);
-          transform: scale(1.01);
-}
-
 .services__item-box {
   background: rgba(29, 29, 29, 0.4);
   border-radius: 0px 0px 20px 20px;
