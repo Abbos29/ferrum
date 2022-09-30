@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Landing Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ferrum Landing Page</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+
+<!-- Header -->
+<header>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo logo-main">
+                    <a href="index.html">
+                        <svg width="35" height="67" viewBox="0 0 35 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 4.99408L1 7.65681L33.9512 7.65681C33.9512 5.26036 31.7323 4.43935 30.6228 4.3284H25.2973V1L12.3166 1L1 4.99408Z" stroke="white" stroke-width="1.99704"/>
+                            <path d="M18.6406 14.3136L1.00003 14.3136V16.9763L11.9838 20.8529V27.6272H18.6406V14.3136ZM18.6406 14.3136H23.6332M23.6332 14.3136H33.9512C33.9512 16.7101 31.7323 17.5311 30.6228 17.642H28.9586V27.6272H23.6332V14.3136Z" stroke="white" stroke-width="1.99704"/>
+                            <path d="M25.2974 7.6568L16.6435 7.6568V14.3136H25.2974V7.6568Z" stroke="white" stroke-width="1.99704"/>
+                            <path d="M16.3107 27.6272L16.3107 65.571H25.6302V27.6272" stroke="white" stroke-width="1.99704"/>
+                            <path d="M16.3107 31.2885H15.3122V33.2855H16.3107V31.2885ZM20.3048 33.2855C20.8562 33.2855 21.3033 32.8385 21.3033 32.287C21.3033 31.7355 20.8562 31.2885 20.3048 31.2885V33.2855ZM16.3107 33.2855H20.3048V31.2885H16.3107V33.2855Z" fill="white"/>
+                            <path d="M16.3107 39.2766H15.3122V41.2737H16.3107V39.2766ZM20.3048 41.2737C20.8562 41.2737 21.3033 40.8266 21.3033 40.2751C21.3033 39.7237 20.8562 39.2766 20.3048 39.2766V41.2737ZM16.3107 41.2737H20.3048V39.2766H16.3107V41.2737Z" fill="white"/>
+                            <path d="M16.3107 47.2648H15.3122V49.2618H16.3107V47.2648ZM20.3048 49.2618C20.8562 49.2618 21.3033 48.8148 21.3033 48.2633C21.3033 47.7119 20.8562 47.2648 20.3048 47.2648V49.2618ZM16.3107 49.2618H20.3048V47.2648H16.3107V49.2618Z" fill="white"/>
+                            <path d="M16.3107 55.253H15.3122V57.25H16.3107V55.253ZM20.3048 57.25C20.8562 57.25 21.3033 56.803 21.3033 56.2515C21.3033 55.7 20.8562 55.253 20.3048 55.253V57.25ZM16.3107 57.25H20.3048V55.253H16.3107V57.25Z" fill="white"/>
+                            <path d="M16.3107 36.2811H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                            <path d="M16.3107 44.2692H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                            <path d="M16.3107 52.2574H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                            <path d="M16.3107 60.2456H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                        </svg>
+                        Ferrum
+                    </a>
+                </div>
+
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Наши услуги</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Контакты</a></li>
+
+                    <div class="logo logo-center">
+                        <a href="index.html">
+                            <svg width="35" height="67" viewBox="0 0 35 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 4.99408L1 7.65681L33.9512 7.65681C33.9512 5.26036 31.7323 4.43935 30.6228 4.3284H25.2973V1L12.3166 1L1 4.99408Z" stroke="white" stroke-width="1.99704"/>
+                                <path d="M18.6406 14.3136L1.00003 14.3136V16.9763L11.9838 20.8529V27.6272H18.6406V14.3136ZM18.6406 14.3136H23.6332M23.6332 14.3136H33.9512C33.9512 16.7101 31.7323 17.5311 30.6228 17.642H28.9586V27.6272H23.6332V14.3136Z" stroke="white" stroke-width="1.99704"/>
+                                <path d="M25.2974 7.6568L16.6435 7.6568V14.3136H25.2974V7.6568Z" stroke="white" stroke-width="1.99704"/>
+                                <path d="M16.3107 27.6272L16.3107 65.571H25.6302V27.6272" stroke="white" stroke-width="1.99704"/>
+                                <path d="M16.3107 31.2885H15.3122V33.2855H16.3107V31.2885ZM20.3048 33.2855C20.8562 33.2855 21.3033 32.8385 21.3033 32.287C21.3033 31.7355 20.8562 31.2885 20.3048 31.2885V33.2855ZM16.3107 33.2855H20.3048V31.2885H16.3107V33.2855Z" fill="white"/>
+                                <path d="M16.3107 39.2766H15.3122V41.2737H16.3107V39.2766ZM20.3048 41.2737C20.8562 41.2737 21.3033 40.8266 21.3033 40.2751C21.3033 39.7237 20.8562 39.2766 20.3048 39.2766V41.2737ZM16.3107 41.2737H20.3048V39.2766H16.3107V41.2737Z" fill="white"/>
+                                <path d="M16.3107 47.2648H15.3122V49.2618H16.3107V47.2648ZM20.3048 49.2618C20.8562 49.2618 21.3033 48.8148 21.3033 48.2633C21.3033 47.7119 20.8562 47.2648 20.3048 47.2648V49.2618ZM16.3107 49.2618H20.3048V47.2648H16.3107V49.2618Z" fill="white"/>
+                                <path d="M16.3107 55.253H15.3122V57.25H16.3107V55.253ZM20.3048 57.25C20.8562 57.25 21.3033 56.803 21.3033 56.2515C21.3033 55.7 20.8562 55.253 20.3048 55.253V57.25ZM16.3107 57.25H20.3048V55.253H16.3107V57.25Z" fill="white"/>
+                                <path d="M16.3107 36.2811H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                                <path d="M16.3107 44.2692H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                                <path d="M16.3107 52.2574H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                                <path d="M16.3107 60.2456H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                            </svg>
+                            Ferrum
+                        </a>
+                    </div>
+
+                    <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Заказать изделия</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>О компании</a></li>
+                </ul>
+
+                <div class="burger">
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main Page -->
+<main>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div class="hero__wrapper">
+
+            <div class="hero__content">
+                <h1 class="hero__title">Lorem Ipsum</h1>
+
+                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium porttitor quam tincidunt faucibus. Nisi, aliquam aliquet facilisis sagittis nullam. Amet ut eu magna orci. Aliquet commodo nibh cras malesuada elementum. Elit amet mauris est urna, egestas convallis est. Vel sapien, commodo, ipsum ut. Tortor, sit bibendum condimentum fringilla est, ornare urna massa. Libero mauris, aliquet id cursus amet odio elit elementum. Sem porttitor risus quis netus eget nisi, ullamcorper.</p>
+            </div>
+
+            <div class="hero__content-img">
+                <img class="hero__img" src="./img/hero/hero-1.jpg" alt="hero-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Form -->
+
+
+
+</main>
+
+<!-- Footer -->
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/scripts.min.js"></script>
+
+</html>
