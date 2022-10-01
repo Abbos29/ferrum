@@ -551,6 +551,15 @@ input[type=button]:focus {
 
 .services__item {
   border-radius: 20px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.services__item:hover {
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .services__item-img {
@@ -590,18 +599,6 @@ input[type=button]:focus {
 
 .products {
   padding: 50px 0 100px;
-}
-
-.products .services__item {
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.products .services__item:hover {
-  -webkit-transform: scale(1.03);
-      -ms-transform: scale(1.03);
-          transform: scale(1.03);
 }
 
 .info {
@@ -664,6 +661,14 @@ input[type=button]:focus {
 
 .info__item {
   list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+.info__item-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 4px;
 }
 
 .info-text {
