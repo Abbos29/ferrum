@@ -559,7 +559,10 @@ input[type=button]:focus {
 }
 
 .services__item {
-  border-radius: 20px;
+  max-width: 380px;
+  max-height: 300px;
+  width: 100%;
+  height: 100%;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -572,7 +575,10 @@ input[type=button]:focus {
 }
 
 .services__item-img {
+  border-radius: 20px;
   max-width: 100%;
+  width: 100%;
+  height: 300px;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
