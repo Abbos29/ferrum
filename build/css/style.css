@@ -677,8 +677,13 @@ input[type=button]:focus {
   line-height: 24px;
 }
 
+.swiper-slide {
+  max-height: 400px;
+}
+
 .swiper-slide img {
   max-width: 100%;
+  width: cover center;
 }
 
 .footer nav {
