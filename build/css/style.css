@@ -407,6 +407,11 @@ nav {
   line-height: 24px;
 }
 
+.form__content-text a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .form__content-inner {
   display: -webkit-box;
   display: -ms-flexbox;
