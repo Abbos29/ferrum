@@ -635,7 +635,7 @@ input[type=button]:focus {
 }
 
 .info__content {
-  max-width: 580px;
+  max-width: 500px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -652,7 +652,7 @@ input[type=button]:focus {
 }
 
 .info__swiper {
-  max-width: 580px;
+  max-width: 520px;
   border-radius: 20px;
   width: 100%;
 }
@@ -692,13 +692,24 @@ input[type=button]:focus {
   line-height: 24px;
 }
 
+.info-pretitle {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+
 .swiper-slide {
   max-height: 400px;
+  max-width: 580px;
+  height: 100%;
+  width: 100%;
 }
 
 .swiper-slide img {
+  border-radius: 20px;
   max-width: 100%;
-  width: cover center;
+  height: 100%;
+  width: 100%;
 }
 
 .footer nav {
