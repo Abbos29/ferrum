@@ -16,6 +16,7 @@
 
     <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/file.css">
 </head>
 
 <body class="main__body">
@@ -94,9 +95,9 @@
         <div class="info__wrapper">
 
             <div class="info__content">
-                <h2 class="info__title section-title">Разработка КМД</h2>
+                <h2 class="info__title section-title tac">Разработка КМД</h2>
 
-                <p class="info-text">Разработка КМД — это услуга по изготовлению пакета документов для использования в строительной отрасли. Пакет документации Конструкций Металлических Деталировочных — это рабочая документация для изготовления металлоконструкций на заводе и монтажа здания на стройплощадке.</p>
+                <p class="info-text tac">Разработка КМД — это услуга по изготовлению пакета документов для использования в строительной отрасли. Пакет документации Конструкций Металлических Деталировочных — это рабочая документация для изготовления металлоконструкций на заводе и монтажа здания на стройплощадке.</p>
             </div>
 
             <!-- Swiper -->
@@ -105,11 +106,11 @@
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                        <img src="./img/slides/kmd/kmd-1.jpg" alt="info-img">
+                        <img src="./img/slides/kmd/kmd-2.jpg" alt="info-img">
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="./img/slides/kmd/kmd-2.jpg" alt="info-img">
+                        <img src="./img/slides/kmd/kmd-1.jpg" alt="info-img">
                     </div>
 
                 </div>
@@ -139,8 +140,107 @@
 </section> 
 
 
-<!-- Form -->
-<section class="form" id="form">
+<div class="divpopup" id="pop_up">
+    <div class="popupcontainer">
+        <div class="popubbody" id="pop_up_body">
+            <div class="form PROJECTS" style="
+            margin-top: -40px;
+        ">
+                        <!--noindex-->
+                        <div class="form_head">
+                                        <h2>Отправить заявку</h2>
+                                        </div>
+                                        
+                    <form method="post" action="form.php" enctype="multipart/form-data">
+                    <input type="hidden" autocomplete="off" name="sessid" id="sessid" value="5b22988d3fb98bec276e0f0167923717"><input type="hidden" name="WEB_FORM_ID" value="7">		<input type="hidden" name="sessid" id="sessid_1" value="5b22988d3fb98bec276e0f0167923717">		<div class="form_body" style="color:black;">
+                                                                                                            <div class="form-control">
+                                <label><span>Ваше имя&nbsp;<span class="star">*</span></span></label>
+                                            <input type="text" autocomplete="off" class="inputtext" id="name"  required="" name="name" value="" aria-required="true">        </div>
+                                                                                                                <div class="form-control">
+                                <label class="lab1"><span>Контактный телефон&nbsp;<span class="star">*</span></span></label>
+                                            <input type="tel" class="phone" autocomplete="off" id="email" data-sid="PHONE" required="" name="phone" value="" aria-required="true">        </div>
+                                                                                                                <div class="form-control">
+                                <label class="lab2"><span>E-mail</span></label>
+                                            <input type="email" autocomplete="off" placeholder="mail@domen.com" class="inputtext" data-sid="email" name="email" value="">        </div>
+                                                                                                                <div class="form-control">
+                                <label class="lab3"><span>Заказ</span></label>
+                                            <textarea data-sid="message" name="message" autocomplete="off" id="message" cols="40" rows="2"></textarea>        </div>
+                                                                                                                <div class="form-control">
+                                <label style="
+            margin-top: -70px;
+        "><span>Сообщение</span></label>
+                                            <textarea data-sid="message2" autocomplete="off" id="message2" name="message2" cols="40" rows="3" style="
+        "></textarea>        </div>
+                                                                                                                <div class="form-control" style="
+            margin-top: -110px;
+        ">
+                                <label><span></span></label>
+                                            Прикрепить файл <input type="file" name="file" accept=".jpg,.jpeg,.png">       </div>
+                                                                    
+                                            <div class="clearboth"></div>
+                                                            <textarea name="nspm" style="display:none;"></textarea>
+                                            <div class="clearboth"></div>
+                            </div>
+                            <div class="form_footer" style="
+            margin-top: -40px;
+        ">
+                                                                <div class="licence_block filter label_block">
+                                            <input type="checkbox" autocomplete="off" id="licenses_popup" name="licenses_popup" checked="" required="" value="Y" aria-required="true">
+                                            <label for="licenses_popup">
+                                                Я согласен на <a href="/include/licenses_detail.php" target="_blank">обработку персональных данных</a>					</label>
+                                        </div>
+                                                            <input type="submit" class="btn btn-default" value="Сделать быстрый расчет" name="web_form_submit">			
+                                </div>
+                            </form>		<!--/noindex-->
+                    </div>
+            <div class="pop_up_close" id="pop_up_close">
+&#10006
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 style="font-size:1.866em; line-height:28px; text-align: center;">Оставьте заявку и получите цену</h2>
+<div class="myRezTeble">
+	<div class="w100 center padded row">
+		 Для расчёта стоимости и сроков исполнения заказа напишите нам в конструкторский отдел <strong><a href="mailto:ferrum@ferrum-steel.ru">ferrum@ferrum-steel.ru</a></strong> или выберите один из следующих вариантов:
+	</div>
+	<div class="row">
+		<div class="w25 center padded myRezTebleButtons" data-event="jqm" data-param-form_id="PROJECTS" data-name="projects6">
+ <noindex> <a rel="nofollow" class="myRezTebleBut" target="_blank">
+			<span>Чертежи </span>
+			</a> </noindex>
+		</div>
+		<div class="w25 center padded myRezTebleButtons" data-event="jqm" data-param-form_id="PROJECTS" data-name="projects7">
+            <noindex> <a rel="nofollow" class="myRezTebleBut" target="_blank">
+                       <span>Эскизы </span>
+                       </a> </noindex>
+                   </div>
+		<div class="w25 center padded myRezTebleButtons" data-event="jqm" data-param-form_id="PROJECTS" data-name="projects8">
+ <noindex> <a rel="nofollow" class="myRezTebleBut" target="_blank">
+			<span>Фото изделий </span>
+			</a> </noindex>
+		</div>
+		<div class="w25 center padded myRezTebleButtons" data-event="jqm" data-param-form_id="PROJECTS" data-name="projects9">
+ <noindex> <a rel="nofollow" class="myRezTebleBut" target="_blank">
+			<span>Техническое задание </span>
+			</a> </noindex>
+		</div>
+	</div>
+	<div class="w100 center padded row">
+	</div>
+	<div class="w100 center padded row">
+ <noindex><a href="#" id="popup"><button id="popup" class="button2">Сделать расчет</button></a></noindex>
+	</div>
+	<div class="w100 center padded row">
+		 Звоните на номер: <strong><span class="roistat-phone">+7 (985) 866-15-34</span> (c 9-00 до 18-00)</strong>
+	</div>
+</div>
+
+
+
+<!-- Form
+<section class="form" id="form" style="margin-top:30px;">
     <div class="container">
 
         <div class="form__wrapper">
@@ -157,7 +257,7 @@
 
             </div>
 
-            <!-- Form -->
+             Form 
 
             <form class="contact-form" id="contact-form">
                 <label>Ваше имя</label>
@@ -169,15 +269,15 @@
                 <label>Номер телефона</label>
                 <input type="tel" placeholder="+7 (___)-__-__"/>
 
-                <!-- <textarea name="textarea" rows="3" cols="20" placeholder="Message"></textarea> -->
+                 <textarea name="textarea" rows="3" cols="20" placeholder="Message"></textarea>
 
                 <input type="button" value="Отправить заявку"/>
-            </form>
+            </form> 
 
 
         </div>
     </div>
-</section>
+</section> -->
 
 
 </main>
@@ -247,5 +347,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="./js/scripts.min.js"></script>
+<script src="./js/main.js"></script>
 
 </html>
