@@ -678,6 +678,8 @@ input[type=button]:focus {
 .info__item {
   list-style-type: disc;
   margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: left;
 }
 
 .info__item-title {
