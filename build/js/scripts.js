@@ -92,7 +92,7 @@
 ScrollReveal({
     reset: false,
     distance: '100px',
-    duration: 1700,
+    duration: 1200,
     delay: 400
 });
 
@@ -103,33 +103,33 @@ ScrollReveal().reveal('', {
 });
 ScrollReveal().reveal('.info__content, .info__inner', {
     reset: false,
-    delay: 400,
+    delay: 300,
     origin: 'left'
 });
 
 ScrollReveal().reveal('.info__swiper ', {
-    delay: 400,
+    delay: 300,
     origin: 'right'
 });
 ScrollReveal().reveal('.myRezTeble', {
     reset: false,
-    delay: 400,
+    delay: 300,
     origin: 'right'
 });
 
 ScrollReveal().reveal('.hero__wrapper, .section-title', {
-    delay: 400,
-    interval: 400,
+    delay: 300,
+    interval: 300,
     origin: 'top'
 });
 ScrollReveal().reveal('.logo, .menu__item, .services__item', {
-    delay: 400,
+    delay: 300,
     interval: 300,
     origin: 'top',
 });
 
 ScrollReveal().reveal('.why__item', {
-    delay: 400,
+    delay: 300,
     interval: 300,
     origin: 'bottom'
 });
