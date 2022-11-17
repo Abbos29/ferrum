@@ -71,6 +71,7 @@ const swiper = new Swiper('.info__swiper', {
     },
   
 
+<<<<<<< HEAD
   //   // Responsive breakpoints
   //   breakpoints: {
   //   // when window width is >= 320px
@@ -84,4 +85,72 @@ const swiper = new Swiper('.info__swiper', {
   //     spaceBetween: 30
   //   },
   // }
+=======
+//   //   // Responsive breakpoints
+//   //   breakpoints: {
+//   //   // when window width is >= 320px
+//   //   320: {
+//   //     slidesPerView: 3,
+//   //     spaceBetween: 20
+//   //   },
+//   //   // when window width is >= 480px
+//   //   480: {
+//   //     slidesPerView: 3,
+//   //     spaceBetween: 30
+//   //   },
+//   // }
+// });
+
+
+// SCROLLREVEAL
+
+ScrollReveal({
+    reset: false,
+    distance: '100px',
+    duration: 1700,
+    delay: 400
+});
+
+ScrollReveal().reveal('', {
+    delay: 1000,
+    interval: 500,
+    origin: 'left'
+});
+ScrollReveal().reveal('.info__content, .info__inner', {
+    reset: false,
+    delay: 400,
+    origin: 'left'
+});
+
+ScrollReveal().reveal('.info__swiper ', {
+    delay: 400,
+    origin: 'right'
+});
+ScrollReveal().reveal('.myRezTeble', {
+    reset: false,
+    delay: 400,
+    origin: 'right'
+});
+
+ScrollReveal().reveal('.hero__wrapper, .section-title', {
+    delay: 400,
+    interval: 400,
+    origin: 'top'
+});
+ScrollReveal().reveal('.logo, .menu__item, .services__item', {
+    delay: 400,
+    interval: 300,
+    origin: 'top',
+});
+
+ScrollReveal().reveal('.why__item', {
+    delay: 400,
+    interval: 300,
+    origin: 'bottom'
+});
+
+ScrollReveal().reveal('', {
+    delay: 200,
+    origin: 'bottom'
+>>>>>>> parent of 8944bd0 (feat: add new form block)
 });
